@@ -89,6 +89,7 @@ class RBM:
             
             for i, index in enumerate(self.indices):
                 
+                print('user %d/%d' % (i+1, len(self.indices)))
                 hidden_prob = []
                 visible_recon_prob = []
                 hidden_recon_prob = []
